@@ -126,3 +126,11 @@ nav .menu{
 html{
   scroll-behavior: smooth;
 }
+
+.page-title{
+  text-align: center;;
+}
+
+.problem-description p{
+  text-align: center;;
+}
