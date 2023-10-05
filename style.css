@@ -116,3 +116,9 @@ nav .menu{
   background: white;
   color: black;
 }
+
+
+.active{
+  color: #ffcc00;
+  font-weight: bold;
+}
