@@ -1,12 +1,12 @@
 <nav>
     <div class="menu">
-        <div class="logo">
+        <div class="center">
             <a href="https://www.cs.odu.edu/~410green/">Gamer Connection</a>
         </div>
         <ul>
             <li><a href="https://www.cs.odu.edu/~410green/">Home</a></li>
             <li><a href="team.html">Team</a></li>
-            <li><a href="problem.html">Problem</a></li>
+            <li><a href="problem.php">Problem</a></li>
             <li><a href="solution.html">Solution</a></li>
             <li><a href="deliverables.html">Deliverables</a></li>
             <li><a href="presentations.html">Presentations</a></li>

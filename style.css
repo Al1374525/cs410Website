@@ -122,3 +122,7 @@ nav .menu{
   color: #ffcc00;
   font-weight: bold;
 }
+
+html{
+  scroll-behavior: smooth;
+}
