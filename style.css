@@ -183,3 +183,7 @@ body {
   display: -ms-flexbox; /* IE 10 */
   display: flex; /* Modern browsers */
 }
+
+.center .title, .team-member h1, .team-member p {
+  overflow: auto;
+}
