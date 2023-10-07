@@ -149,3 +149,17 @@ html{
   overflow-wrap: break-word;
 >>>>>>> main
 }
+
+.team-section {
+  text-align: center;
+}
+
+.team-member h1,
+.team-member p {
+  color: black;
+}
+
+.team-member img {
+  width: 200px; /* Or whatever width you prefer */
+  height: auto; /* Maintains aspect ratio */
+}
