@@ -30,56 +30,100 @@
     <div class="title">Our Team</div>
     <hr>
     <br>
-    <h1 style="color: black;">Christian Euell</h1>
-    <img src="Christian Photo.jpg" width="180" height="200">
-    <br>
-    <p style="color:black">Hello, my name is Christian Euell. I am currently a senior at Old Dominion University. 
-      I have already obtained an associates degree in Computer Science at Tidewater Community College and am currently pursuing a 
-      bachelor's degree in computer science and a minor in cyber security. I have been working as an Amazon Warehouse Associate for over 4 years; 
-      considering to apply for Amazon's IT Department.
+    <table style="width:100%; border-collapse: collapse;">
+       <!-- Header Row -->
+    <tr>
+      <th>Name</th>
+      <th>Image</th>
+      <th>Description</th>
+  </tr>
+  <!-- Christian Euell -->
+  <tr>
+      <td><h1 style="color: black;"><a href="#bio-Christian" onclick="showBio('bio-Christian')">Christian Euell</a></h1></td>
+      <td><img src="Christian Photo.jpg" width="150" height="auto"></td>
+      <td><p style="color:black">Hello, my name is Christian Euell. I am currently a senior at Old Dominion University...</p></td>
+  </tr>
+  <!-- Richard Connor -->
+  <tr>
+      <td><h1 style="color: black;"><a href="#bio-Richard" onclick="showBio('bio-Richard')">Richard Connor</a></h1></td>
+      <td><img src="Richard.jpg" width="150" height="auto"></td>
+      <td><p style="color:black">Richard Connor is Senior at Old Dominion University...</p></td>
+  </tr>
+  <!-- Victory Chuma -->
+  <tr>
+      <td><h1 style="color: black;"><a href="#bio-Victory" onclick="showBio('bio-Victory')">Victory Chuma</a></h1></td>
+      <td><img src="Victory Chuma.jpg" width="150" height="auto"></td>
+      <td><p style="color:black">Hello my name is Victory Chuma. I am a junior at ODU...</p></td>
+  </tr>
+  <!-- Albert Ayitey-Adjin -->
+  <tr>
+      <td><h1 style="color: black;"><a href="#bio-Albert" onclick="showBio('bio-Albert')">Albert Ayitey-Adjin</a></h1></td>
+      <td><img src="Albert.jpg" width="150" height="auto"></td>
+      <td><p style="color:black">Hello, My name is Albert Ayitey-Adjin...</p></td>
+  </tr>
+  <!-- Cody Bonham -->
+  <tr>
+      <td><h1 style="color: black;"><a href="#bio-Cody" onclick="showBio('bio-Cody')">Cody Bonham</a></h1></td>
+      <td><img src="Cody Photo.jpg" width="150" height="auto"></td>
+      <td><p style="color:black">Cody is a second-degree Computer Science major...</p></td>
+  </tr>
+  </table>
+  <div id="bio-Christian" class="bio-detail">
+    <h2>Christian Euell</h2>
+    <img src="Christian Photo.jpg" style="width: 300px; height: auto;">
+    <p>Hello, my name is Christian Euell... (full bio here)</p>
+    <button onclick="hideBio()">Close</button>
+</div>
+<div id="bio-Richard" class="bio-detail">
+  <h2>Richard Connor</h2>
+  <img src="Richard.jpg" style="width: 300px; height: auto;">
+  <p>Richard Connor is Senior at Old Dominion University  tudying Computer Science. He plans to be a software developer 
+    with a specialization in app/web development. Currently he has been working as a LG expert at Best Buy for three years and seeking to find a 
+    front-end developer position after University. Besides programming he also loves hanging out with friends and playing video games. I'm 
+    constantly seeking new knowledge and enjoy playing the piano and learning French. Feel free to connect with me via social media or reach 
+    out via email. I'd love to work on an open-source project. Let's connect and make something amazing together!</p>
+  <button onclick="hideBio()">Close</button>
+</div>
 
-    </p>
-    <hr>
-    <br>
-    <h1 style="color: black;">Richard Connor</h1>
-    <img src="Richard.jpg" width="180" height="200">
-    <br>
-    <p style="color: black;">Richard Connor is Senior at Old Dominion University studying Computer Science. He plans to be a software developer 
-      with a specialization in app/web development. Currently he has been working as a LG expert at Best Buy for three years and seeking to find a 
-      front-end developer position after University. Besides programming he also loves hanging out with friends and playing video games. I'm 
-      constantly seeking new knowledge and enjoy playing the piano and learning French. Feel free to connect with me via social media or reach 
-      out via email. I'd love to work on an open-source project. Let's connect and make something amazing together!</p>
-    
-    <hr>
-    <br>
-    <h1 style="color: black;">Victory Chuma</h1>
-    <img src="Victory Chuma.jpg" width="200" height="200">
-    <br>
-    <p style="color: black;">Hello my name is Victory Chuma. I am a junior at odu studying computer science and cyber security, 
-      I plan to pursue a career in cyber security after I graduate. I like to read and watch movies in my free time. 
-    </p>
+<div id="bio-Victory" class="bio-detail">
+  <h2>Victory Chuma</h2>
+  <img src="Victory Chuma.jpg" style="width: 300px; height: auto;">
+  <p>Hello my name is Victory Chuma. I am a junior at ODU studying computer science and cyber security, 
+    I plan to pursue a career in cyber security after I graduate. I like to read and watch movies in my free time. </p>
+  <button onclick="hideBio()">Close</button>
+</div>
 
-    <hr>
-    <br>
-    <h1 style="color: black;">Albert Ayitey-Adjin</h1>
-    <img src="Albert.jpg" width="200" height="200">
-    <br>
-    <p style="color: black;">Hello, My name is Albert Ayitey-Adjin and I am a senior at Old Dominion University studying computer science. I plan 
-      on becoming a Data Scientist, with a specialization in machine learning. I currently work at Chipotle as a crew member and I seek to either find 
-      employment after graduation or seek a Masters Degree. I love to play video games, cook, hang out with friends and enjoy learning new things 
-      ( currently trying to teach myself piano and somewhat of quantum physics). I am interested in the roles of being a software developer and web developer. </p>
+<div id="bio-Albert" class="bio-detail">
+  <h2>Albert Ayitey-Adjin</h2>
+  <img src="Albert.jpg" style="width: 300px; height: auto;">
+  <p>Hello, My name is Albert Ayitey-Adjin and I am a senior at Old Dominion University studying computer science. I plan 
+    on becoming a Data Scientist, with a specialization in machine learning. I currently work at Chipotle as a crew member and I seek to either find 
+    employment after graduation or seek a Masters Degree. I love to play video games, cook, hang out with friends and enjoy learning new things 
+    ( currently trying to teach myself piano and somewhat of quantum physics). I am interested in the roles of being a software developer and web developer.</p>
+  <button onclick="hideBio()">Close</button>
+</div>
 
-    <hr>
-    <br>
-    <h1 style="color: black;">Cody Bonham</h1>
-    <img src="Cody Photo.jpg" width="150" height="200">
-    <br>
-    <p style="color: black;">Cody is a second-degree Computer Science major and Cybersecurity minor planning on graduating in 
-      May 2024. His previous degree is a A.A.S. in Physical Therapist Assistant and he worked as a Licensed Physical Therapist Assistant 
-      for over 8 years. He currently lives in Marion, Virginia and he spends his free time detailing his vehicles, playing video games, and traveling. 
-    </p>
-    
-    </div>
+<div id="bio-Cody" class="bio-detail">
+  <h2>Cody Bonham</h2>
+  <img src="Cody Photo.jpg" style="width: 300px; height: auto;">
+  <p>Cody is a second-degree Computer Science major  and Cybersecurity minor planning on graduating in 
+    May 2024. His previous degree is a A.A.S. in Physical Therapist Assistant and he worked as a Licensed Physical Therapist Assistant 
+    for over 8 years. He currently lives in Marion, Virginia and he spends his free time detailing his vehicles, playing video games, and traveling.</p>
+  <button onclick="hideBio()">Close</button>
+</div>
+</div>
   </div>
+  <script>
+   function showBio(id) {
+    document.getElementById(id).style.display = 'block';
+}
+
+function hideBio() {
+    let bios = document.querySelectorAll('.bio-detail');
+    bios.forEach(function(bio) {
+        bio.style.display = 'none';
+    });
+}
+</script>
 </body>
 </html>
