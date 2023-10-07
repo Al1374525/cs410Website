@@ -163,3 +163,18 @@ html{
   width: 200px; /* Or whatever width you prefer */
   height: auto; /* Maintains aspect ratio */
 }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+body {
+  overflow-y: auto;
+}
