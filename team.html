@@ -38,6 +38,7 @@
       <th>Description</th>
   </tr>
   <!-- Christian Euell -->
+  
   <tr>
       <td><h1 style="color: black;"><a href="#bio-Christian" onclick="showBio('bio-Christian')">Christian Euell</a></h1></td>
       <td><img src="Christian Photo.jpg" width="150" height="auto"></td>
@@ -115,6 +116,7 @@
   </div>
   <script>
    function showBio(id) {
+    hideBio();
     document.getElementById(id).style.display = 'block';
 }
 
@@ -124,6 +126,10 @@ function hideBio() {
         bio.style.display = 'none';
     });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    hideBio(); 
+   });
 </script>
 </body>
 </html>
