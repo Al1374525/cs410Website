@@ -370,3 +370,65 @@ iframe {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*this is for reference.html for the formatting of the references: */
+p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/*for image on the website*/
+.background-image {
+  background-image: url('GameFlash\ photo\ 1.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* full height of the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.background-image::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1; /* Adjust z-index appropriately so it overlays the background image */
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.title, .slogan, .intro {
+  color: #FFF; /* or any color you prefer for text on the image */
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #f0f0f0;
+}
+
+
