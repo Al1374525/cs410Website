@@ -416,19 +416,20 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
+  color: rgb(248, 246, 244);
   z-index: 2;
 }
 
-.title, .slogan, .intro {
-  color: #FFF; /* or any color you prefer for text on the image */
+.center-reference {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+  color: rgb(12, 12, 12);
+  z-index: 2;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: bold;
-  color: #f0f0f0;
-}
+
 
 
