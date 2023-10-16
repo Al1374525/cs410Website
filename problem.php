@@ -12,6 +12,7 @@
     <?php include 'nav.php'; ?>
     
     <main class="content-wrapper">
+<<<<<<< HEAD
         <h1 class="page-title">The Problem</h1>
         <section class="problem-description">
  
@@ -31,6 +32,11 @@
 	    </p></br>
 
         </section>
+=======
+        <h1 id="page-title">The Problem</h1>
+        <p style="color: black;">Many gamers find it hard to explore new games and build a community around their gaming interests, leading to a sense of disconnection in an increasingly vast and diverse gaming landscape</p>
+        
+>>>>>>> 4aa474438fc27949c02efbcf5b9ae7ddfca285a0
     </main>
 </body>
 </html>
