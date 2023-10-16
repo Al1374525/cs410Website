@@ -12,16 +12,9 @@
     <?php include 'nav.php'; ?>
     
     <main class="content-wrapper">
-        <h1 class="page-title">The Problem</h1>
-        <section class="problem-description">
-            <br> <p>
-                The challenge is the isolation and difficulty that Gamers
-                face in discovering new titles, while lacking a dedicated platform to connect with like-minded players.
-
-                Many Gamers find it hard to explore new games and build a community around their gaming interests,
-                leading to a sense of disconnection in an increasingly vast and diverse gaming landscape.
-            </p></br>
-        </section>
+        <h1 id="page-title">The Problem</h1>
+        <p style="color: black;">Many gamers find it hard to explore new games and build a community around their gaming interests, leading to a sense of disconnection in an increasingly vast and diverse gaming landscape</p>
+        
     </main>
 </body>
 </html>
