@@ -163,8 +163,9 @@ html{
 }
 
 .team-member img {
-  width: 200px; /* Or whatever width you prefer */
-  height: auto; /* Maintains aspect ratio */
+ max-width: 200px; /*Makes sure the image doesn't break the layout */
+  height: auto;
+  border-radius: 5px; /* Maintains aspect ratio */
 }
 
 body, html {
@@ -238,8 +239,27 @@ th {
 }
 
 .bio-detail img {
+  width: 150px; /* specifies the width */
+    height: 150px; /* specifies the height */
+    object-fit: cover; /* this property will make sure your images cover the whole area of the size specified without distortion */
+    border-radius: 50%; 
+ 
   margin-top: 10px;
   max-height: calc(70vh - 100px)  /* Adjust this value as needed */
+}
+
+
+.bio-detail button {
+  padding: 5px 15px; /* Vertical and horizontal padding */
+  background-color: #333; /* Dark background */
+  color: white; /* Light text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicates clickable area */
+}
+
+.bio-detail button:hover {
+  background-color: #555; /* Slightly lighter color on hover */
 }
 
 .center {
@@ -253,10 +273,13 @@ th {
   gap: 20px;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .team-member {
   text-align: center;
+  padding: 10px; /* Space inside each member's box */
+  border-radius: 5px; /* Rounded corners */
 }
 
 .bio-modal {
