@@ -430,6 +430,13 @@ p {
   z-index: 2;
 }
 
+#current-process-heading {
+  color: black; /* Or any other color you prefer */
+}
+
+#solution-process-heading{
+  color: black;
+}
 
 
 
