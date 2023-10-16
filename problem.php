@@ -12,9 +12,12 @@
     <?php include 'nav.php'; ?>
     
     <main class="content-wrapper">
-        <h1 id="page-title">The Problem</h1>
-        <p style="color: black;">Many gamers find it hard to explore new games and build a community around their gaming interests, leading to a sense of disconnection in an increasingly vast and diverse gaming landscape</p>
-        
+        <h1 class="page-title">The Problem</h1>
+        <section class="problem-description">
+            <br> <p>
+            Many gamers find it hard to explore new games and build a community around their gaming interests, leading to a sense of disconnection in an increasingly vast and diverse gaming landscape
+            </p></br>
+        </section>
     </main>
 </body>
 </html>
