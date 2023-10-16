@@ -13,6 +13,7 @@
     
     <main class="content-wrapper">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h1 class="page-title">The Problem</h1>
         <section class="problem-description">
  
@@ -37,6 +38,14 @@
         <p style="color: black;">Many gamers find it hard to explore new games and build a community around their gaming interests, leading to a sense of disconnection in an increasingly vast and diverse gaming landscape</p>
         
 >>>>>>> 4aa474438fc27949c02efbcf5b9ae7ddfca285a0
+=======
+        <h1 class="page-title">The Problem</h1>
+        <section class="problem-description">
+            <br> <p>
+            Many gamers find it hard to explore new games and build a community around their gaming interests, leading to a sense of disconnection in an increasingly vast and diverse gaming landscape
+            </p></br>
+        </section>
+>>>>>>> a3d8f3cc64c486100dcdc7dd68a370782450e55f
     </main>
 </body>
 </html>
