@@ -14,7 +14,7 @@
     <main class="content-wrapper">
         <h1 class="page-title">The Problem</h1>
         <section class="problem-description">
-            <h2>Problem Statement: </h2>
+            <h2>Problem Statement:</h2>
             <p>Many gamers find it hard to explore new games and build a community around their gaming interests, leading to a sense of disconnection in an increasingly vast and diverse gaming landscape.</p>
         </section>
         <h1 class="problem characteristics">Problem characteristics</h1>

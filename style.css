@@ -141,15 +141,24 @@ html{
 }
 
 .problem-description{
-  display: flex;
-  justify-content: center; 
-  align-items: center;  
- 
-  min-height: 50vh; /* This allows the section to be at least half the height of the viewport, but it can grow if the content is larger */
-  text-align: center;
-  width: 100%;
-  margin-bottom: 20px; 
+  
+  margin-bottom: 20px;
+  padding: 10px;
 }
+
+.problem-characteristics{
+ 
+  margin-bottom: 10px; 
+  padding: 10px;
+}
+
+.problem-characteristics ul {
+    
+   
+  margin-top: 10px; /* adds space between the title and the list */
+  }
+  
+  
 .container {
   display: flex;
   flex-direction: column;
@@ -165,6 +174,12 @@ html{
 
 .team-section {
   text-align: center;
+}
+
+/* This rule will apply to both h2 elements */
+h1 {
+  font-size: 24px; /* Example size. Set the font-size you want */
+  /* Other styles like color, font-weight, etc., can be added here */
 }
 
 .team-member h1,
@@ -482,5 +497,26 @@ p {
 #solution-statement{
   color: black;
 }
+#solution-characteristics{
+  columns: black;
+}
+
+.slogan {
+  font-size: 30px; /* or whatever size you prefer */
+  /* Additional styling */
+  font-weight: bold;
+  color: white; /* if you want to change color, otherwise remove this line */
+  text-align: center; /* if you want to center your slogan, otherwise remove this line */
+  margin: 20px; /* or whatever size, for space around the text */
+}
 
 
+.intro {
+  font-size: 24px; /* You can adjust the size as you prefer */
+  /* Additional optional styling below */
+  font-weight: normal; /* or you could use 'bold' if you prefer */
+  color:white; /* Specify a color code here if you want to change the color */
+  text-align: center; /* Centers the text, remove if you want default alignment */
+  margin: 20px; /* Adds some space around your text, adjust value as needed */
+  /* You can add any other styling you find suitable here */
+}
