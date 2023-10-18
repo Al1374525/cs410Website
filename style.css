@@ -146,8 +146,18 @@ html{
   display: flex;
   justify-content: center; 
   align-items: center;  
-  height: 100vh;
+ 
+  min-height: 50vh; /* This allows the section to be at least half the height of the viewport, but it can grow if the content is larger */
   text-align: center;
+  width: 100%;
+  margin-bottom: 20px; 
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start; /* Adjust based on your design */
+  justify-content: flex-start; /* Adjust based on your design */
+  gap: 10px; /* Adjust the space between elements */
 }
 
 .problem-description p{
@@ -180,6 +190,14 @@ body, html {
 
 .content {
   min-height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* This property specifies the gap between flex items */
+  align-items: start; /* Aligns items to the start of the flex container */
+  padding: 20px; /* Just to give some space inside the container */
 }
 
 body {
