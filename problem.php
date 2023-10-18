@@ -17,7 +17,14 @@
             <br> <p>
             Many gamers find it hard to explore new games and build a community around their gaming interests, leading to a sense of disconnection in an increasingly vast and diverse gaming landscape
             </p></br>
+
+            <ul>
+                <li><strong>Diverse Game Library:</strong> Vast number of video games available, with thousands of options and different gaming styles.</li>
+                <li><strong>Finding Compatible Players:</strong> Identifying and connecting with players who match one's skill level, play style, and objectives.</li>
+                <li><strong>Tracking & Recognition:</strong> Difficulty in tracking and recognizing in-game achievements and trophies.</li>
+            </ul>
         </section>
+        
     </main>
 </body>
 </html>
