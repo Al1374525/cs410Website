@@ -46,9 +46,68 @@
   </nav>
   <div class="img"></div>
   <div class="center">
-    <div class="title">Weekly Report</div>
-    <iframe src="https://docs.google.com/document/d/e/2PACX-1vSRKrf6-DfuC-KTLq-qWxyMNSQRHaMzEZHdTLny1PvVfL9uS0AyDY3Rbr1xxuUtiw/pub?embedded=true"></iframe>
+    <div class="title">Weekly Reports</div>
+    <div class="weekly-reports">
+      <button class="collapsible"><h1 id='weeklyReport'>Weekly Report</h1></button>
+      <div class="content">
+        <button class="collapsible"><h2 id="1">1st Week</h2></button>
+        <div class="content">
+          <iframe class="report" src='https://docs.google.com/document/d/e/2PACX-1vSRKrf6-DfuC-KTLq-qWxyMNSQRHaMzEZHdTLny1PvVfL9uS0AyDY3Rbr1xxuUtiw/pub?embedded=true' frameborder='0'></iframe>
+        </div>
+        <button class="collapsible"><h2 id="2">2nd Week</h2></button>
+        <div class="content">
+          <iframe class="report" src='https://docs.google.com/document/d/e/2PACX-1vSI70Wpmu33wbuRv7d4gsZV-ALnBNPoPMFeexT5RE3yYW6L0lCP_i38SvH8ml0kHQ/pub?embedded=true' frameborder='0'></iframe>
+        </div>
+        <button class="collapsible"><h2 id="3">3rd Week</h2></button>
+        <div class="content">
+          <iframe class ="report" src='' frameborder ='0'></iframe>
+        </div>
+        
     </div>
   </div>
+  <script>
+// JavaScript to handle the collapsible sections
+var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+<script>
+  window.addEventListener('scroll', () => {
+  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+    loadMoreReports();
+  }
+});
+
+function loadMoreReports() {
+  // Use fetch API or XMLHttpRequest to make an AJAX request
+  fetch('/load-more-reports')
+    .then(response => response.json())
+    .then(data => {
+      // Handle the data received from the server
+      // For example, append the reports to the current page
+      data.reports.forEach(report => {
+        const reportElement = document.createElement('div');
+        // Populate reportElement with report content
+        // ...
+        document.body.appendChild(reportElement); // Append new content
+      });
+    })
+    .catch(error => {
+      console.error('Error loading more reports:', error);
+    });
+}
+</script>
 </body>
 </html>
