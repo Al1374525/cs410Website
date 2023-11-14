@@ -412,7 +412,7 @@ iframe {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black; /* or your desired color */
+  color: white; /* or your desired color */
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -557,4 +557,34 @@ p {
   /* Styles that ensure the container allows for scrolling */
   min-height: 800px; /* Adjust as necessary */
   overflow: auto;
+}
+
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%; /* Adjust width as necessary */
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: auto; /* Centering the button */
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  display: none;
+  overflow: auto; /* Enable scrolling */
+  background-color: #f1f1f1;
+  max-height: 400px; /* Maximum height before scrolling */
+}
+
+.report {
+  width: 100%; /* Full width */
+  height: 500px; /* Adjust height as necessary */
 }
